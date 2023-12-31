@@ -125,7 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/shark/proprietary/vendor/etc/thermal-engine-encrypt.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-encrypt.conf \
     vendor/xiaomi/shark/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/xiaomi/shark/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
-    vendor/xiaomi/shark/proprietary/vendor/firmware/MCF.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/MCF.bin \
     vendor/xiaomi/shark/proprietary/vendor/firmware/a630_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_gmu.bin \
     vendor/xiaomi/shark/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
     vendor/xiaomi/shark/proprietary/vendor/firmware/a630_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.b00 \
@@ -160,8 +159,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/shark/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/xiaomi/shark/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/xiaomi/shark/proprietary/vendor/firmware/iris2p.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/iris2p.fw \
-    vendor/xiaomi/shark/proprietary/vendor/firmware/iris2p_ccf1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/iris2p_ccf1.fw \
-    vendor/xiaomi/shark/proprietary/vendor/firmware/iris2p_ccf2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/iris2p_ccf2.fw \
     vendor/xiaomi/shark/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
     vendor/xiaomi/shark/proprietary/vendor/firmware/stm_fts_production_limits.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/stm_fts_production_limits.csv \
     vendor/xiaomi/shark/proprietary/vendor/firmware/tas2559_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2559_uCDSP.bin \
