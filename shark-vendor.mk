@@ -113,6 +113,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/shark/proprietary/vendor/etc/tas2559_r.ftcfg:$(TARGET_COPY_OUT_VENDOR)/etc/tas2559_r.ftcfg \
     vendor/xiaomi/shark/proprietary/vendor/etc/thermal-engine-encrypt.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-encrypt.conf \
     vendor/xiaomi/shark/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/a630_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_gmu.bin \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/a630_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.b00 \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/a630_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.b01 \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/a630_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.b02 \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/a630_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.elf \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/a630_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.mdt \
     vendor/xiaomi/shark/proprietary/vendor/firmware/bu64748gwz.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/bu64748gwz.prog \
     vendor/xiaomi/shark/proprietary/vendor/firmware/iris2p.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/iris2p.fw \
     vendor/xiaomi/shark/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
