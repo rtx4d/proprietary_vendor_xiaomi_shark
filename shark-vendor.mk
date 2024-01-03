@@ -8,6 +8,9 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/shark/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/xiaomi/shark/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
+    vendor/xiaomi/shark/proprietary/vendor/bin/hw/vendor.pixelworks.hardware.display@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.pixelworks.hardware.display@1.0-service \
+    vendor/xiaomi/shark/proprietary/vendor/bin/irisConfig:$(TARGET_COPY_OUT_VENDOR)/bin/irisConfig \
+    vendor/xiaomi/shark/proprietary/vendor/bin/irisPanelCalibration:$(TARGET_COPY_OUT_VENDOR)/bin/irisPanelCalibration \
     vendor/xiaomi/shark/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/xiaomi/shark/proprietary/vendor/etc/acdbdata/MTP/MTP_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Codec_cal.acdb \
     vendor/xiaomi/shark/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
@@ -75,6 +78,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/shark/proprietary/vendor/etc/hdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_config.cfg \
     vendor/xiaomi/shark/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/xiaomi/shark/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
+    vendor/xiaomi/shark/proprietary/vendor/etc/init/vendor.pixelworks.hardware.display@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.pixelworks.hardware.display@1.0-service.rc \
     vendor/xiaomi/shark/proprietary/vendor/etc/sdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/sdr_config.cfg \
     vendor/xiaomi/shark/proprietary/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
     vendor/xiaomi/shark/proprietary/vendor/etc/sensors/config/icm206xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/icm206xx_0.json \
@@ -121,6 +125,24 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/shark/proprietary/vendor/firmware/a630_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.elf \
     vendor/xiaomi/shark/proprietary/vendor/firmware/a630_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.mdt \
     vendor/xiaomi/shark/proprietary/vendor/firmware/bu64748gwz.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/bu64748gwz.prog \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm1.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm10.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm11.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm12.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm12.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm13.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm13.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm14.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm14.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm15.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm15.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm16.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm16.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm17.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm17.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm2.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm2.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm3.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm3.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm4.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm4.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm5.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm5.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm6.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm6.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm7.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm7.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm8.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm8.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm9.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm9.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParmRev.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParmRev.txt \
     vendor/xiaomi/shark/proprietary/vendor/firmware/iris2p.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/iris2p.fw \
     vendor/xiaomi/shark/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
     vendor/xiaomi/shark/proprietary/vendor/firmware/stm_fts_production_limits.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/stm_fts_production_limits.csv \
@@ -208,6 +230,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/shark/proprietary/vendor/lib/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc2.so \
     vendor/xiaomi/shark/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/xiaomi/shark/proprietary/vendor/lib/libnanopb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnanopb.so \
+    vendor/xiaomi/shark/proprietary/vendor/lib/libpwirispq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpwirispq.so \
     vendor/xiaomi/shark/proprietary/vendor/lib/libscveFaceLandmarks.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveFaceLandmarks.so \
     vendor/xiaomi/shark/proprietary/vendor/lib/libscveFaceRecognition.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveFaceRecognition.so \
     vendor/xiaomi/shark/proprietary/vendor/lib/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsapi.so \
@@ -284,10 +307,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/shark/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
     vendor/xiaomi/shark/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
     vendor/xiaomi/shark/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
+    vendor/xiaomi/shark/proprietary/vendor/lib64/libpwirisPCS.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwirisPCS.so \
+    vendor/xiaomi/shark/proprietary/vendor/lib64/libpwirispq.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwirispq.so \
     vendor/xiaomi/shark/proprietary/vendor/lib64/libscveFaceLandmarks.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveFaceLandmarks.so \
     vendor/xiaomi/shark/proprietary/vendor/lib64/libscveFaceRecognition.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveFaceRecognition.so \
     vendor/xiaomi/shark/proprietary/vendor/lib64/libsoeminfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoeminfo.so \
     vendor/xiaomi/shark/proprietary/vendor/lib64/libsoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoftkeymasterdevice.so \
     vendor/xiaomi/shark/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so \
     vendor/xiaomi/shark/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
+    vendor/xiaomi/shark/proprietary/vendor/lib64/vendor.pixelworks.hardware.display@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.pixelworks.hardware.display@1.0_vendor.so \
     vendor/xiaomi/shark/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0.so
